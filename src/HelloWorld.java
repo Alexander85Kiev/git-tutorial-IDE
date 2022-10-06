@@ -6,4 +6,6 @@ public class HelloWorld {
     public void printNamre() {
         System.out.println("Ivan");
     }
+    
+    //code from another developer
 }
