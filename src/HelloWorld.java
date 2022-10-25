@@ -1,11 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Git from IDE");
-    }
 
-    public void printNamre() {
-        System.out.println("Ivan");
+        int a = 10;
+        int b = 20;
+
+        System.out.println();
+
+        //
+
+
     }
-    
-    //code from another developer
 }
