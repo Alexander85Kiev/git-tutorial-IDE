@@ -20,20 +20,19 @@ public class UberShop {
         }
     }
 
+    public int[] getMinPriceCount(int[] prices){
+        if(prices.length==0){
+            return new int[0];
+        }
+        return prices;
+    }
+   public int[] findMinMaxPrices(int[] prices) {
+       Arrays.sort(prices);
+       if(prices.length == 0) return    new int[]{};
+       else if(prices[0]==prices[prices.length-1]) return new int[]{prices[0]};
+       else return new int[]{prices[0], prices[prices.length-1]};
+   }
 
-  /**  public int[] findMinMaxPrices(int[] prices) {
-        int max = 0;
-      int min = 0;
-        for (int i = 0; i < prices.length; i++) {
-            if (prices.length == 0) {
-                return new int[]{};
-            } else if
-            (prices[0] == prices[prices.length - 1]) {
-                return new int[]{prices[0]};
-            } else {
-                return new int[]{prices[0], prices[prices.length - 1]};
-            }}return ne[]};
-   **/
 
     //Test output
     public static void main(String[] args) {
